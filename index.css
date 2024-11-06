@@ -1,0 +1,55 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px auto auto 100px;
+    gap: 10px;
+}
+
+.inicio {
+    grid-column: 1 / -1;
+    background-color: rgb(47, 77, 207);
+    height: 100px;
+}
+
+.gris {
+    grid-column: 1;
+    background-color: rgb(128, 128, 128);
+    height: 500px;
+}
+
+.ca {
+    grid-column: 2;
+    display: grid;
+    align-items: start;
+    gap: 20px;
+    padding: 20px;
+    background-color: blue;
+}
+
+.padre {
+    display: grid;
+    gap: 10px;
+    height: 100%;
+}
+
+.hijo1 {
+    background-color: aqua;
+    height: 200px;
+}
+
+.hijo2 {
+    background-color: aqua;
+    height: 200px;
+}
+
+.rojo {
+    grid-column: 1 / -1;
+    background-color: red;
+    height: 400px;
+}
+
+.final {
+    grid-column: 1 / -1;
+    background-color: rgb(47, 77, 207);
+    height: 100px;
+}
